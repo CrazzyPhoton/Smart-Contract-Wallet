@@ -152,14 +152,4 @@ contract SmartContractWallet is ERC721Holder, ERC1155Holder {
         token.safeTransferFrom(address(this), recipient, tokenId, tokenIdAmount, "");
     }
 
-    //============================================//
-    //             SUPPORTS INTERFACE
-    //============================================//
-
-    function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {
-        return interfaceId == type(IERC1155Receiver).interfaceId ||
-        interfaceId == type(IERC721Receiver).interfaceId ||
-        super.supportsInterface(interfaceId);
-    }
-
 }
