@@ -57,7 +57,7 @@ This project contains two Solidity smart contracts:
 
 ## Contract Details
 
-### SmartContractWallet
+### SmartContractWallet Functions
 
 | Function               | Description                                            |
 |------------------------|--------------------------------------------------------|
@@ -76,7 +76,7 @@ This project contains two Solidity smart contracts:
 | `depositErc1155`       | Deposits ERC1155 tokens into the wallet.              |
 | `sendErc1155`          | Sends ERC1155 tokens to a recipient.                  |
 
-### FactoryContractForSmartContractWallet
+### FactoryContractForSmartContractWallet Functions
 
 | Function                         | Description                                      |
 |----------------------------------|--------------------------------------------------|
@@ -100,5 +100,3 @@ This project contains two Solidity smart contracts:
 This project is licensed under the MIT License.
 
 ---
-
-
